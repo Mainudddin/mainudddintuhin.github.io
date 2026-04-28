@@ -1,3 +1,6 @@
+// Dynamic Year
+document.getElementById('currentYear').textContent = new Date().getFullYear();
+
 // Mobile Menu Toggle
 const menuBtn = document.getElementById('menuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
